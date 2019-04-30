@@ -10,11 +10,12 @@ package porcentaje4;
  * @author PC
  */
 public class Porcentaje4 {
-    public static String mensaje4 = "Por favor indique si es padre o madre de "
-            + "fimila: ";
+    // Declaración de variables estáticas
+    public static String mensaje4 = "Usted tiene hijos: ";
     
-    public static double descuento4;
+    // Se da valor a la variable estatica descuento
+    public static double descuento = 0.03;
     
-    public static String mensajedescuento4 = "El descuento por su estado "
-            + "civil es: ";
+    public static String mensajedescuento4 = "El descuento por tener hijos "
+            + "es: ";
 }

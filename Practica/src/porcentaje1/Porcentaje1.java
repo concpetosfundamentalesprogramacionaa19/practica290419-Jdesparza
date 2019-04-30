@@ -10,11 +10,14 @@ package porcentaje1;
  * @author PC
  */
 public class Porcentaje1 {
-    // declara una variable estática
+    // Declaración de variables estáticas
+    
+    // Se da valor a la variable estatica descuento
+    public static double descuento = 0.2;
+    
     public static String mensaje1 = "Por favor ingrese la ciudad a la que"
             + " pertenece: ";
-    public static double descuento1;
     
-    public static String mensajedescuento1 = "Su descuento por la ciudad en "
+    public static String mensajedescuento1 = "Su descuento por la ciudad a "
             + "la que pertenece es:";
 }

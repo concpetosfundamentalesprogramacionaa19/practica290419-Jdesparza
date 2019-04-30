@@ -10,11 +10,12 @@ package porcentaje3;
  * @author PC
  */
 public class Porcentaje3 {
-    // declara una variable estática
+    // Declaración de variables estáticas
     public static String mensaje3 = "Por favor ingrese su estado civil: ";
     
-    public static double descuento3;
+    // Se da valor a la variable estatica descuento
+    public static double descuento = 0.05;
     
-    public static String mensajedescuento3 = "El descuento por su estado "
-            + "civil es: ";
+    public static String mensajedescuento3 = "El descuento por estar "
+            + "casado es: ";
 }

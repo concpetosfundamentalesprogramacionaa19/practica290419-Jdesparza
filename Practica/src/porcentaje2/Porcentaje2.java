@@ -10,10 +10,12 @@ package porcentaje2;
  * @author PC
  */
 public class Porcentaje2 {
-    // declara una variable estática
+    // Declaración de variables estáticas
+    
     public static String mensaje2 = "Por favor ingrese su edad: ";
      
-    public static double descuento2;
+    // Se da valor a la variable estatica descuento
+    public static double descuento = 0.1;
     
     public static String mensajedescuento2 = "El descuento por su edad es: ";
 }
