@@ -129,11 +129,16 @@ public class ClasePrincipal {
                     descuento4);
         }
         
-        
+        // Se calcula el valor a pagar sin impuesto del estudiante
         valor_pago = costo - descuento1 - descuento2 - descuento3 - descuento4;
+        
+        // Se calcula el impuesto a pagar por el estudiante
         iva = valor_pago * 0.02;
+        
+        // Se calcula el costo final a pagar
         costo_final = valor_pago + iva;
         
+        // Se da a conocer el costo a pagar al estudiante
         System.out.printf("El impuesto a pagar es de: %.2f\nSu costo "
                 + "final es: %.2f\n", iva, costo_final);
     }
